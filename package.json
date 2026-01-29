@@ -1,0 +1,30 @@
+{
+  "name": "simplewrtcjs",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^2.0.3",
+    "localtunnel": "^2.0.2",
+    "tsx": "^4.21.0",
+    "uuid": "^13.0.0",
+    "wrtc": "^0.4.7",
+    "y-webrtc": "^10.3.0",
+    "yjs": "^13.6.29"
+  },
+  "description": "To install dependencies:",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
